@@ -1,10 +1,10 @@
-# Alex & Jenna's Travels
-A website to spread awareness whenever Jen gets to Cloud 9
+# Jenna's on Cloud 9??
+A website to spread awareness whenever Jen blasts off to Cloud 9
 
 
 ## Locally Set Up Project
 1. Create a python 3 virtual environment and pip install the requirements.txt
-2. Add all necessary bash_profile vars (check constants.py)
+2. Add all necessary bash_profile vars
 3. source ~/.bash_profile
 4. source ../[venv_name]/bin/activate
 5. python manage.py createsuperuser
@@ -30,6 +30,10 @@ https://www.codementor.io/@jamesezechukwu/how-to-deploy-django-app-on-heroku-dts
 1. heroku logs --tail
 2. heroku run python manage.py migrate
 2. heroku run python manage.py createsuperuser
+
+
+## Heroku Variables to Set
+- SECRET_KEY, CLOUD_NAME, CLOUD_API_KEY, CLOUD_API_SECRET
 
 
 ## Set up Domain
